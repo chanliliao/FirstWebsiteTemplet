@@ -150,6 +150,10 @@
   grid-template-columns: repeat(3, 1fr);
 }
 
+.grid-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
 /* MARGIN TOP/DOWN*/
 .my-1 {
   margin: 1rem 0;
