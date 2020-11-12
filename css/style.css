@@ -294,12 +294,12 @@ img {
 /* about */
 .about-why {
   height: 700px;
-  background-color: #edebeb;
+  background-color: var(--light-color);
   padding-top: 50px;
   margin: 0;
 }
 .about-text {
-  margin: 40px 0;
+  margin: 40px 60px;
 }
 
 .about-text h1 {
@@ -321,20 +321,17 @@ img {
   align-items: flex-start;
 }
 
-.about-stats1 .card h1 {
-  font-size: 30px;
-  font-weight: 800;
-}
+.about-stats1 .card h1,
 .about-stats2 .card h1 {
   font-size: 30px;
   font-weight: 800;
 }
-.about-stats1 .card p {
-  font-weight: 800;
-}
+
+.about-stats1 .card p,
 .about-stats2 .card p {
   font-weight: 800;
 }
+
 .about-people img {
   width: 250.25px;
 }
@@ -343,15 +340,17 @@ img {
   padding: 0;
   box-shadow: none;
   border-radius: 0px;
-  background-color: #edebeb;
+  background-color: var(--light-color);
 }
 
-.about-people p {
+.about-people p,
+.about-location p {
   padding: 0 15px;
   margin: 0;
   margin-bottom: 10px;
 }
-.about-people h3 {
+.about-people h3,
+.about-location h3 {
   padding: 10px;
   font-weight: 800;
 }
@@ -360,7 +359,7 @@ img {
 }
 
 .about-location {
-  background-color: #edebeb;
+  background-color: var(--light-color);
 }
 
 .about-location .card {
@@ -368,14 +367,42 @@ img {
   padding: 0;
 }
 
-.about-location p {
-  padding: 0 15px;
-  margin: 0;
-  margin-bottom: 10px;
+/* CONTACT */
+
+.contact .card {
+  height: 200px;
+  box-shadow: none;
+  border-radius: 3px;
+  background-color: #cbfac9;
 }
-.about-location h3 {
-  padding: 10px;
-  font-weight: 800;
+
+.contact2 .card {
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.contact h1,
+.contact2 h1 {
+  font-weight: bold;
+}
+
+.contact .card:hover,
+.contact2 .card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+#bar {
+  height: 10px;
+  background-color: var(--light-color);
+  width: 65%;
+  margin: 40px auto;
+}
+
+#bar2 {
+  background-color: var(--light-color);
+  width: 65%;
+  margin: 100px auto;
 }
 
 /*FOOTER*/
