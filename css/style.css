@@ -291,6 +291,93 @@ img {
   font-weight: bold;
 }
 
+/* about */
+.about-why {
+  height: 700px;
+  background-color: #edebeb;
+  padding-top: 50px;
+  margin: 0;
+}
+.about-text {
+  margin: 40px 0;
+}
+
+.about-text h1 {
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.about-why .card {
+  margin: 40px 0;
+  text-align: center;
+  height: 150px;
+  background-color: var(--primary-color);
+  box-shadow: none;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.about-why .grid {
+  align-items: flex-start;
+}
+
+.about-stats1 .card h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.about-stats2 .card h1 {
+  font-size: 30px;
+  font-weight: 800;
+}
+.about-stats1 .card p {
+  font-weight: 800;
+}
+.about-stats2 .card p {
+  font-weight: 800;
+}
+.about-people img {
+  width: 250.25px;
+}
+
+.about-people .card {
+  padding: 0;
+  box-shadow: none;
+  border-radius: 0px;
+  background-color: #edebeb;
+}
+
+.about-people p {
+  padding: 0 15px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.about-people h3 {
+  padding: 10px;
+  font-weight: 800;
+}
+.about-people h1 {
+  font-weight: 900;
+}
+
+.about-location {
+  background-color: #edebeb;
+}
+
+.about-location .card {
+  border-radius: 0px;
+  padding: 0;
+}
+
+.about-location p {
+  padding: 0 15px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.about-location h3 {
+  padding: 10px;
+  font-weight: 800;
+}
+
 /*FOOTER*/
 .footer .social a {
   margin: 0 10px;
